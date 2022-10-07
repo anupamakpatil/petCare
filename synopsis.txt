@@ -1,0 +1,45 @@
+Synopsis/Project Proposal
+Project title : Pet Care App, Team number. 11
+
+Team profile : ANUPAMA K PATIL - PES2UG20CS418
+                NAMRATA S JANAWADE - PES2UG20CS442
+                POOJA H - PES2UG20CS448
+                RIA TREZA SERRAO – PES2UG20CS453
+                
+Proposed project description
+PET CARE PROJECT - a brand-new project with features from other sample software
+projects. A user-friendly app for pet owners reaching to any demographic.
+
+Functional requirements:
+Reminders and To-Do list
+Notes app with photos
+Online store
+Pet day care, grooming links and social support
+
+Plan of work and product ownership:
+ Planning basic design and architecture. Fine-tuning the requirements according
+to the design.
+
+ Implementation stack:
+Frontend: HTML, CSS and JavaScript.
+Backend: PHP.
+Database: MySQL database
+
+ Workload Division:
+Reminders and To-do list - Namrata Shrikant Janawade
+Notes app with photos - Ria Treza Serrao
+Online store - Pooja H
+Pet day care, grooming links and social support - Anupama K Patil
+
+ Functional requirements:
+Reminders and To-Do list - Reminders as notifications personalized for your pet
+Notes app with photos - writing daily notes on your pet
+Online store - to buy products for your pet(s)
+Pet day care, grooming links and social support - forming a localized pet support
+group
+
+ Non - functional Requirements:
+User friendly
+Personalized
+Security
+Localized
