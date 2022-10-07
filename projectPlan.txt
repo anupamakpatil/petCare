@@ -1,0 +1,20 @@
+Project Plan Document
+
+Instructions:
+1: Prepare a detailed plan for your project which comprises of the below
+mentioned details.
+2: Upload pdf document through the given link.
+3: The name of the document should be your Project ID.
+
+Things to be included as part of the project plan.
+1: Identify the lifecycle to be followed for the execution of your project and
+justify why you have chosen the model. (Use Degree of certainty )
+2: Identify the tools which you want to use throughout the lifecycle like
+planning tool, design tool, version control, development tool, bug tracking,
+testing tool.
+3: Determine all the deliverables and categorise them as reuse/build components
+and justify the same.
+4: Create a WBS for the entire functionalities in detail.
+5: Do a rough estimate of effort required to accomplish each task in terms of
+person months.(Use BASIC COCOMO)
+6: Create the Gantt Chart for scheduling using any tool.
