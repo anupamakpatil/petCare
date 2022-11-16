@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Information Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+      
+          <a id="logo-container" href="#" class="brand-logo">petCare</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="./notifPage.html">Notifications</a></li>
+            <li><a href="./todo.php">To-Do List</a></li>
+            <li><a href="./list.php">Event List</a></li>
+            <li><a href="./eventInsert.html">Host Event</a></li>
+        <li><a href="../petcare/home.php">Pet Store</a></li>
+        <li><a href="./notehome.php">Add Note</a></li>
+        <li><a href="./chooseForm.php">Select your pet</a></li>
+        <li><a href="index.php?logout=true">Logout</a></li>
+            <!-- <li><a href="#"></a></li> -->
+            
+          </ul>
+    
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="./notifPage.html">Notifications</a></li>
+            <li><a href="./todo.php">To-Do List</a></li>
+            <li><a href="#">Event List</a></li>
+            <li><a href="#">Host Event</a></li>
+        <li><a href="#">Pet Store</a></li>
+        <li><a href="#">Add Note</a></li>
+        <li><a href="#">Select your pet</a></li>
+        <li><a href="index.php?logout=true">Logout</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+
+
+      <div class="row">
+    <div class="col-md-12">
+      <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form method="post" action="insert.php" target="dummyframe" >
+        
+        <h1> Information </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">1</span>Basic Info</legend>
+
+          <label>User ID:</label>
+          <input type="number" name="userID" id="userID" value="" required>
+
+          <label>Event ID:</label>
+          <input type="number" name="eventID" id="eventID" value="" required>
+        
+          <label>Event Name:</label>
+          <input type="text" name="eventname" id="eventname" value="" required>
+       
+          <label>Event Venue:</label>
+          <input type="text" name="eventvenue" id="eventvenue" value="" required>
+        
+          <label>Event Date:</label>
+          <input type="date" name="eventdate" id="eventdate" value=""><br>
+
+          <label>Event Time:</label>
+          <input type="time" name="eventtime" id="eventtime" value=""><br>
+
+          <label>Event Description:</label>
+          <input type="text" name="eventdescription" id="eventdescription" value=""><br>
+          
+          
+        </fieldset>
+        
+    
+        <button type="submit">Save</button>
+        
+       </form>
+       
+        </div>
+      </div>
+      
+    </body>
+
+</html>
